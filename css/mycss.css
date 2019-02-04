@@ -5,7 +5,6 @@ html, body {
 
 }
 #allumfassend {
-    /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
