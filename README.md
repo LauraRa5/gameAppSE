@@ -12,4 +12,4 @@ Ist das letzte Level des Spiels erreicht wird die Raupe zu einem Schmetterling.<
 
 <p>Aktuelle Probleme:<br>
 - Flächen in einem Gebiet durch Code erzeugen<br>
-- Kollisionscode auf Flächen anpassen, aktuell yu komplex durch die Erstellung der Flächen mit Hilfe von path() und lineto()<br>
+- Kollisionscode auf Flächen anpassen, aktuell zu komplex durch die Erstellung der Flächen mit Hilfe von path() und lineto()<br>
