@@ -1,0 +1,119 @@
+/* Some CSS styling */
+html, body {
+  width: 80%;
+  height: 80%;
+
+}
+#allumfassend {
+    /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+.leftside {
+    float:left;
+    width:220px;
+    height:285px;
+    background-color:#def;
+    padding:10px;
+    border-radius:4px;
+}
+.rightside {
+    float:left;
+    margin-left:10px;
+}
+#canvas {
+  /*  background-image: url('bsp.png');
+  background-color: #00aeff;*/
+    max-width: 100%;
+    height: auto;
+    border:1px solid #d3d3d3;
+    z-index: 1;
+}
+#clearbutton {
+    font-size: 15px;
+    padding: 10px;
+    -webkit-appearance: none;
+    background: #eee;
+    border: 1px solid #888;
+}
+#p0, #p1 {
+	background-color: #90ee90;
+}
+
+#text1 {
+	margin-left: 25%;
+	border: 1px;
+	}
+
+#traurig {
+  margin-left: 10%;
+  margin-top: -50%;
+  z-index: 10;
+  }
+
+#btnstart {
+	color: yellow;
+	background-color: red;
+	margin-left: 50%;
+	z-index: 10;
+	}
+
+#btnlos {
+  	color: yellow;
+  	background-color: green;
+    margin-top: -10rem;
+  	margin-left: 80%;
+  	z-index: 10;
+  	}
+
+#raupe1 {
+	width: auto;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	z-index: 1;
+	}
+
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
